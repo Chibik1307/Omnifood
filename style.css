@@ -236,6 +236,11 @@ body {
   position: relative;
 }
 
+.step-img-box picture {
+  display: flex;
+  justify-content: center;
+}
+
 .step-img-box::after,
 .step-img-box::before {
   content: "";
